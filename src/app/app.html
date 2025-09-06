@@ -1,7 +1,12 @@
 <div class="container my-5">
   
   <!-- Cabecero centrado -->
-   <app-cabecero/>
+   <app-cabecero 
+    [presupuestoTotal]="getPresupuestoTotal()"
+    [ingresoTotal]="getIngresoTotal()"
+    [egresoTotal]="getEgresoTotal()"
+    [porcentajeTotal]="getPorcentajeTotal()"
+  />
 
   <!-- Formulario centrado -->
   <app-formulario/>
