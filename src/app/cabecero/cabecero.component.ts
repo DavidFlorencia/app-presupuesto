@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-cabecero.component',
+  selector: 'app-cabecero',
   imports: [],
   templateUrl: './cabecero.component.html',
   styleUrl: './cabecero.component.css'
